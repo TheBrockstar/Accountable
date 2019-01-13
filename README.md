@@ -1,3 +1,44 @@
+# Accountable
+
+## How it works:
+
+1. Create a goal.
+
+2. Find a partner/sponsor
+ - Connect to various social apps (just facebook for now)
+ - Connect to members who have declared themselves "open" to partnering with a stranger
+
+3. Choose a Notification Frequency
+ - Multiple different frequencies modeled after Google Calendar
+ - Special Option that slowly "weens" a member off of their partner's help
+
+## Requirements:
+1. User Accounts
+  - Settings Page (Standard User Settings + Open to Public)
+  - Social Media Account Integration
+  - Authorization (Google Authentication for now)
+  - Goal List (You can have 3 for free and Unlimited in the premium $5.00/mo. version).
+  - Contact List
+
+2. Messaging
+  - Instant Messaging using Web Sockets
+  - Inbox
+  - Chat Widget/Component 
+
+3. Calendar Integration
+  - Not a 3rd Party SAAS, but a 3rd party calendar component (investigate)
+
+4. Database
+  - Firebase served by Firebase RTD
+  - Social Models
+  - Event Models
+
+ ## Stretch: 
+1. Support Groups: Create/Invite/Join Groups with goals that match yours
+
+
+# React Build Docs
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
